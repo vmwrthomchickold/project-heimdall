@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    {{ partial "hero/l2.html" . }}
+
+    {{ partial "ranger/type/package-alt.html" . }}
+
+    {{ partial "ranger/type/service.html" . }}
+
+    {{ partial "ranger/type/structure.html" . }}
+
+    {{ partial "ranger/sibling/default.html" . }}
+
+    <aside>
+
+        {{ .TableOfContents }}
+
+    </aside>
+
+  </div>
+
+{{ end }}

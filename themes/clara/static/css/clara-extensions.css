@@ -1,0 +1,354 @@
+/* --------------- Global Styles --------------- */
+
+.content-container, .section-hero {
+  background-color: #fafafa;
+}
+
+.gradient-divider {
+  height: 3px;
+  width: auto;
+  background: #78be20;
+background: -moz-linear-gradient(left, #78be20 0%, #1a4288 100%);
+background: -webkit-linear-gradient(left, #78be20 0%,#1a4288 100%);
+background: linear-gradient(to right, #78be20 0%,#1a4288 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', endColorstr='#1a4288',GradientType=1 );
+}
+
+.solid-divider {
+  height: 1px;
+  width: auto;
+  background: #cccccc;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* --------------- Breadcrumb Styles --------------- */
+
+.breadcrumb {
+  border-bottom:1px solid #cccccc; text-transform: capitalize;
+}
+
+ul.breadcrumbs {
+   -webkit-padding-start:0; padding-top: .6rem; padding-bottom: .6rem;
+}
+
+ul.breadcrumbs li+li:before {
+    color: #555555; content: ">\00a0 \00a0";
+}
+
+ul.breadcrumbs a:visited {
+  color: #006699;
+}
+
+.inline {
+  display:inline;
+}
+
+/* --------------- Footer Styles --------------- */
+
+.footer {
+  margin: 0;
+  background-color: #002538;
+  padding: 12px 0 12px 0;
+  width: 100%;
+  z-index: 3;
+}
+
+/* --------------- Colors --------------- */
+
+.white-linktext {
+  color: white !important;
+}
+
+.black-linktext {
+  color: black !important;
+}
+
+.light-grey {
+  background-color: #f1f1f1;
+}
+
+/* --------------- Margins --------------- */
+
+.mar-lr-24 {
+   margin-right:24px;
+   margin-left:24px;
+}
+
+.mar-lr-36 {
+   margin-right:36px;
+   margin-left:36px;
+}
+
+.max-width-1248 {
+  margin:auto;
+  max-width:1248px;
+}
+
+.mar-top-24 {
+  margin-top:24px;
+}
+
+/* --------------- Borders --------------- */
+
+.b-bot {
+  border-bottom: 1px solid #cccccc;
+}
+
+/* --------------- Padding --------------- */
+
+.pad-top-24 {
+  padding-top:24px;
+}
+
+.pad-sides-48 {
+   padding-left:48px;
+   padding-right:48px;
+}
+
+/* --------------- Code Logo --------------- */
+
+.code-logo {
+  background-image: url('../static/img/code-logo.svg');
+  margin-right: 11px;
+  min-width: none;
+  height: 36px;
+  width: 36px;
+}
+
+.code-logo-reversed {
+  background-image: url('../img/code-logo-reversed.svg');
+  height: 30px;
+  margin-right: 12px;
+  width: 30px;
+}
+
+/* --------------- Homepage Styles --------------- */
+
+
+/* --------------- Homepage Hero --------------- */
+
+.hero-home {
+  height: 696px;
+  max-width: 1248px;
+  margin: 0px auto;
+  padding-top: 36px;
+  padding-bottom: 72px;
+  position: relative;
+  width: 100%;
+}
+
+
+.hero-container-home {
+  max-width: 1248px;
+  margin: 0 12px 0 12px;
+}
+
+.hero-home h1 {
+  font-weight: 200;
+  max-width: 600px;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  line-height: 72px
+}
+
+.hero-home p.head {
+  color: #000000;
+  font-size:18px;
+  font-weight: 200;
+  line-height: 36px;
+  margin: 6px 5px 0 0;
+  max-width: 624px;
+}
+
+.hero-home .btn {
+  margin: 36px 18px 24px 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 48px;
+  line-height: 47px;
+}
+
+.hero-home p.subtext > a {
+color: inherit;
+text-decoration: underline;
+}
+
+.hero-home-bg-img {
+  height: 560px;
+  width: 560px;
+  margin-left: 612px;
+  margin-top:-320px;
+  background-image: url('../img/code-logo.svg');
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+/* --------------- Homepage Showcase --------------- */
+
+.showcase-home {
+  width: auto;
+  max-width: 1248px;
+  margin: 0px auto 0px auto;
+  z-index: 2;
+  position: relative;
+  padding-top: 48px;
+}
+
+.showcase-container-home {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 24px 0 24px 0;
+  border-radius: 3px;
+  margin-bottom: 48px;
+  margin-top: -280px;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 3px 0 0 #d7d7d7;
+  opacity: 0.95;
+}
+
+.showcase-container-home > h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* --------------- L1 Directory Page Styles --------------- */
+
+.hero-l1 {
+  margin: 0 24px 0 24px;
+  text-align: center;
+}
+
+.hero-container-l1 {
+  max-width: 1248px;
+  margin: auto;
+  padding: 24px 0 0 0;
+  position: relative;
+  width: 100%;
+}
+
+/* --------------- Tutorial Page Styles --------------- */
+
+.hero-article {
+  margin: 0 12px 0 12px;
+}
+
+.hero-container-article {
+  max-width: 1248px;
+  margin: auto;
+  padding: 24px 0 0 0;
+  position: relative;
+  width: 100%;
+}
+
+/* --------------- RSS Feeds --------------- */
+
+.feeds {
+  max-width: 1248px;
+  margin: auto;
+}
+
+.feed {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.byline {
+  margin-top: 6px;
+}
+
+/* --------------- L1 Directory Page Styles --------------- */
+
+
+.hero-container-l1 {
+  max-width: 1248px;
+  margin: auto;
+  padding: 24px 0 0 0;
+  padding-bottom: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.showcase-l1 {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0px auto 0px auto;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.showcase-container-l1 {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 24px;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 3px 0 0 #d7d7d7;
+}
+
+.indexer-first {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 24px;
+  padding-top:24px;
+}
+
+.indexer {
+  padding-top:48px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 24px;
+}
+
+.indexer-last {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+/* --------------- Styles for 2-Col text box --------------- */
+
+.twocol {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+
+.twocol-li {
+  flex:1 1 auto;
+  width:40%;
+  margin-right: 48px;
+}
+
+
+/* --------------- Sidekick Styles --------------- */
+
+.bottom-banner {
+  margin: 48px;
+  border-top: 1px solid #cccccc;
+  height: auto;
+  background-color: #314351;
+  padding-bottom: 24px;
+}
+
+.bottom-banner > h2, .bottom-banner > p  {
+  color: #ffffff;
+}

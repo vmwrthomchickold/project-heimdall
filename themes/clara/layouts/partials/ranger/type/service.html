@@ -1,0 +1,32 @@
+<div class="mar-lr-36 pad-top-24">
+
+    <div class="max-width">
+
+    <section class="clr-row border-bottom padding-bottom-24">
+
+        <div class="clr-col-3">
+
+          <h2 class="pad-top-24">Services</h2>
+
+        </div>
+
+        <div class="clr-col-5">
+
+              {{ range where .Site.Pages "Params.type" "service" }}
+
+              <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              <div class="p1">{{ .Description }}
+
+              </div>
+
+              {{ end }}
+
+        </div>
+
+      </section>
+
+    </div>
+
+            <div class="solid-divider mar-top-24"></div>
+
+  </div>

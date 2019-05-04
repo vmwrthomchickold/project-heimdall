@@ -1,0 +1,25 @@
+{{ $home := . }}
+
+<section>
+
+  <div class="clr-col-5">
+
+    <h2>{{ .Params.type }}s</h2>
+
+  </div>
+
+  <div class="clr-col-7" style="margin-top:24px;">
+
+    <ul class="list-unstyled">
+
+      {{ range .Pages }}
+
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+
+      {{ end }}
+
+    </ul>
+
+  </div>
+
+</section>

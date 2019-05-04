@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+      {{ partial "hero/l2.html" . }}
+
+  </div>
+
+  <div class="content-container bg-white">
+
+    <div class="mar-lr-36">
+
+      <div class="max-width">
+
+        {{.Content}}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

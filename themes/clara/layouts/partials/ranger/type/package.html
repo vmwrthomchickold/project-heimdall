@@ -1,0 +1,29 @@
+<h3 class="mar-lr-36 pad-top-24">Packages</h3>
+
+<div class="clr-row mar-lr-24">
+
+  {{ range where .Sections "Params.type" "package" }}
+
+  <div class="clr-col-lg-4 clr-col-12">
+
+    <div>
+
+      <div>
+
+        <h3><a class="black-linktext" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+
+      </div>
+
+      <div>
+
+        <p class="card-text">{{ .Description }}</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {{ end }}
+
+</div>

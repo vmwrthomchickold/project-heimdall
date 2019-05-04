@@ -1,0 +1,41 @@
+<div class="mar-lr-36 pad-top-24">
+
+    <div class="max-width">
+
+      <h3>Errors</h3>
+
+      <table class="table">
+
+        <thead>
+
+            <tr>
+
+                <th class="left">Type</th>
+
+                <th class="left">Message</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+          {{ range where .Site.Pages "Params.type" "structure" }}
+
+            <tr>
+
+                <td class="left"><a href="{{ .Permalink }}">{{.Title}}</a></td>
+
+                <td class="left">This is the default message text.</td>
+
+            </tr>
+
+          {{end}}
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>

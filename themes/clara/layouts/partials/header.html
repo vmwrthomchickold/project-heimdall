@@ -1,0 +1,31 @@
+<header class="header-6">
+
+  <div class="branding">
+
+      <a class="logo-and-title" href="/">
+
+        <span class="code-logo-reversed"></span>
+
+        <span class="title">{{.Site.Title}}</span>
+
+      </a>
+
+    </div>
+
+  <div class="header-nav">
+
+    {{ range .Site.Menus.main }}
+
+    <a href="{{ .URL }}" class="nav-link nav-text">{{ .Name }}</a>
+
+    {{ end }}
+
+  </div>
+
+  <div class="header-actions" style="align-items: center;">
+
+        <a href="/join" class="nav-link nav-text">Sign In</a><a class="btn btn-primary" href="/join">Sign Up</a>
+
+    </div>
+
+</header>

@@ -1,0 +1,43 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "VMware {code}"
+theme = "clara"
+preserveTaxonomyNames = true
+
+[menu]
+
+  [[menu.main]]
+  identifier = "Platforms"
+  name = "Platforms"
+  url = "/platforms/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "Topics"
+  name = "Topics"
+  url = "/topics/"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "Resources"
+  name = "Resources"
+  url = "/resources/"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "Support"
+  name = "Support"
+  url = "/support/"
+  weight = 4
+
+  [[menu.main]]
+  identifier = "Community"
+  name = "Community"
+  url = "/community/"
+  weight = 5
+
+[taxonomies]
+
+  tag = "tags"
+  category = "categories"
+  product = "products"

@@ -1,0 +1,32 @@
+
+  <div class="mar-lr-36 pad-top-24">
+
+    <div class="max-width">
+
+    <section class="clr-row border-bottom padding-bottom-24">
+
+        <div class="clr-col-3">
+
+            <h2 class="pad-top-24 pad-bottom-24 capitalize">Related {{.Params.type}}s</h2>
+
+        </div>
+
+        <div class="clr-col-5">
+
+            {{ range .Parent.Sections }}
+
+            {{ if ne $ . }}
+
+            <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+
+            {{ end }}
+
+            {{ end }}
+
+        </div>
+
+      </section>
+
+    </div>
+
+  </div>
