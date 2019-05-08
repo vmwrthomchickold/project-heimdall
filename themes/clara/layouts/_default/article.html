@@ -4,11 +4,29 @@
 
   <div class="content-container">
 
-    {{ partial "hero/article.html" . }}
+    <div class="clr-row bg-white">
 
-    {{ partial "content/article.html" . }}
+      <div class="clr-col-3">
 
-    {{ partial "ranger/sibling/default.html" . }}
+        {{ partial "sidenav.html" . }}
+
+      </div>
+
+      <div class="clr-col-7 border-right pad-r-24">
+
+        {{ partial "hero/article.html" . }}
+
+        {{ partial "content/article.html" . }}
+
+      </div>
+
+      <div class="clr-col-2 bg-grey">
+
+            {{ partial "toc.html" . }}
+
+      </div>
+
+    </div>
 
   </div>
 
