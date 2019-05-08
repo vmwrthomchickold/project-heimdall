@@ -3,4 +3,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 linktitle: Samples
 title: Cloud Automation Services Code Samples
+type: devcenter-subdir
 ---

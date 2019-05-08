@@ -1,0 +1,29 @@
+<div class="mar-l-24">
+
+    <div>
+
+        <div>
+
+          <h6>
+
+            {{ .Params.guide }}
+
+          </h6>
+
+          <div class="gradient-divider mar-top-12"></div>
+
+          <ul class="list-simple mar-top-12">
+
+            {{ range .Parent.Sections }}
+
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+
+            {{ end }}
+
+          </ul>
+
+        </div>
+
+    </div>
+
+  </div>

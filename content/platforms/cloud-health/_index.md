@@ -4,4 +4,5 @@ draft: true
 categories: Cloud Health
 layout: devcenter
 title: Cloud Health
+type: devcenter
 ---

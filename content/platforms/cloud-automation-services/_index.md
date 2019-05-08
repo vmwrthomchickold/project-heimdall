@@ -3,4 +3,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 layout: devcenter
 title: Cloud Automation Services
+type: devcenter
 ---

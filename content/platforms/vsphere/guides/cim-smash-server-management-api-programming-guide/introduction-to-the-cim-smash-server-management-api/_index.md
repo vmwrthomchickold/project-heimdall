@@ -1,6 +1,17 @@
-# Introduction to the CIM SMASH/Server Management API
+---
+author: VMware
+draft: true
+description:
+guide: CIM SMASH/Server Management API Programming Guide
+include_toc: true
+layout: test
+title: Introduction to the CIM SMASH/Server Management API
+toc: true
+type: topic
+weight: 2
+---
 
-VMware ESXi includes a CIM Object Manager \(CIMOM\) that implements a set of server discovery and monitoring features that are compatible with the SMASH standard. With the VMware CIM SMASH/Server Management API, clients that use industry-standard protocols can do the following: 
+VMware ESXi includes a CIM Object Manager \(CIMOM\) that implements a set of server discovery and monitoring features that are compatible with the SMASH standard. With the VMware CIM SMASH/Server Management API, clients that use industry-standard protocols can do the following:
 
 | ■  | Enumerate system resources  |
 | :--- | :--- |
@@ -15,7 +26,7 @@ The VMware CIM SMASH/Server Management API is supported by ESXi. Hardware compat
 
 ## Supported Protocols and Versions for the CIM API
 
-The VMware CIM SMASH/Server Management API supports the following protocols: 
+The VMware CIM SMASH/Server Management API supports the following protocols:
 
 | ■  | CIM-XML over HTTP or HTTPS  |
 | :--- | :--- |
@@ -28,11 +39,11 @@ The CIM standard is an object model maintained by the DMTF, a consortium of lead
 
 ### Supported Profiles for the CIM API
 
-The VMware CIM SMASH/Server Management API supports a subset of the profiles defined by the SMWG. These profiles have overlapping structures and can be used in combinations to manage a server. 
+The VMware CIM SMASH/Server Management API supports a subset of the profiles defined by the SMWG. These profiles have overlapping structures and can be used in combinations to manage a server.
 
-This VMware CIM implementation also includes a profile from the SMI specification developed by the Storage Networking Industry Association \(SNIA\). The implementation uses SMI-S version 1.3. 
+This VMware CIM implementation also includes a profile from the SMI specification developed by the Storage Networking Industry Association \(SNIA\). The implementation uses SMI-S version 1.3.
 
-In some situations, the version of a profile supported by the CIMOM is important. The following table shows the version of each profile that is implemented by the VMware CIM SMASH/Server Management API for this release of ESXi. 
+In some situations, the version of a profile supported by the CIMOM is important. The following table shows the version of each profile that is implemented by the VMware CIM SMASH/Server Management API for this release of ESXi.
 
 Some profiles are only partially implemented by VMware. The implementation does not include all mandatory elements specified in the profile. These profiles are listed with “N/A” in the Version column. For information about which elements are implemented, see the VMware CIM SMASH/Server Management API and Profile Reference at [http://pubs.vmware.com/vsphere-51/topic/com.vmware.cimsdk.smashref.doc/title\_page.html](http://pubs.vmware.com/vsphere-51/topic/com.vmware.cimsdk.smashref.doc/title_page.html).
 
@@ -50,7 +61,7 @@ In vSphere 5.0 and later, the LSI and HP provider VIBs are not included in the d
 
 The following procedure gives you the general steps for downloading a VIB from a third-party website. The instructions may be slightly different for each third-party site.
 
-To download a CIM Provider VIB: 
+To download a CIM Provider VIB:
 
 | 1 | Go to the website of the CIM Provider, and look for the ‘Support’ or ‘Downloads’ section. For example, on the HP website, the section is called, ‘HP Drivers and Support’. On the LSI Corporation website, the section is called, ‘Support Downloads By Product‘ under the ‘Support’ tab. |
 | :--- | :--- |
@@ -59,11 +70,11 @@ To download a CIM Provider VIB:
 
 ### Add a CIM Provider VIB to Your ESXi Image
 
-You can add a CIM Provider VIB to your ESXi image using the vSphere ESXi Image Builder CLI. Install VIBs from only one OEM vendor at a time. 
+You can add a CIM Provider VIB to your ESXi image using the vSphere ESXi Image Builder CLI. Install VIBs from only one OEM vendor at a time.
 
-Before you begin, install the VMware PowerCLI software. 
+Before you begin, install the VMware PowerCLI software.
 
-Use the following steps to add a new VIB to your image: Procedure 
+Use the following steps to add a new VIB to your image: Procedure
 
 <table>
   <thead>
@@ -118,6 +129,3 @@ Use the following steps to add a new VIB to your image: Procedure
     </tr>
   </tbody>
 </table>
-
-
-

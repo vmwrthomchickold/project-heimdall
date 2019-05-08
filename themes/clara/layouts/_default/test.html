@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    <div class="clr-row bg-white">
+
+      <div class="clr-col-3">
+
+        {{ partial "sidenav.html" . }}
+
+      </div>
+
+      <div class="clr-col-7 border-right pad-r-24">
+
+        {{ partial "hero/article.html" . }}
+
+        {{ partial "content/article.html" . }}
+
+      </div>
+
+      <div class="clr-col-2 bg-grey">
+
+            {{ partial "toc.html" . }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

@@ -1,0 +1,17 @@
+<!-- TOCs need to be declared explicitly in the front matter of content/*.md -->
+
+<aside class="pad-lr-12" style="">
+
+	{{ if and (gt .WordCount 200 ) (.Params.toc) }}
+
+		<h5>What's on this Page</h5>
+
+		<div class="pad-top-12">
+
+			{{ .TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
+
+		</div>
+
+	{{ end }}
+
+</aside>

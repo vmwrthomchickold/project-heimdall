@@ -1,0 +1,23 @@
+<section>
+
+    <div>
+
+      <!--
+
+        <div class="uppercase p2">{{ .Type }}</div>
+
+      -->
+
+      <h1>{{ .Title }}</h1>
+
+      <div class="p2">
+
+        {{ dateFormat "Jan. 2, 2006"  .Date }} | {{ .FuzzyWordCount}} words  | {{ .ReadingTime }} minutes to read {{if .Params.author}}| Contributed by {{.Params.Author}}{{end}}
+
+      </div>
+
+      <h5>{{ .Description }}</h5>
+
+    </div>
+
+</section>

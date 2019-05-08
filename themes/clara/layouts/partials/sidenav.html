@@ -1,0 +1,45 @@
+{{ $section := where .Site.RegularPages "Section" .Section }}
+
+<nav role="navigation" class="sidenav bg-grey height-full width-auto">
+
+<h5 class="mar-l-36">{{ .Params.guide }}</h5>
+
+<div class="border-bottom pad-top-24">
+
+</div>
+
+  <section class="sidenav-content">
+
+    {{ if .Sections }}
+
+      {{ range .Parent.Sections }}
+
+          <section class="nav-group collapsible">
+
+            <input id="topic" type="checkbox">
+
+            <label for="topic">{{ .Title }}</label>
+
+            <ul class="nav-list">
+
+              {{ range .Sections}}
+
+                <li><a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a></li>
+
+              {{ end }}
+
+            </ul>
+
+          </section>
+
+      {{ end }}
+
+    {{ else }}
+
+      {{ range .Parent.Sections }}
+
+        <a class="nav-link {{ if eq $ .}} active {{ end }}" href="{{ .Permalink }}"><div style="width:90%;">{{ .Title }}</div></a>
+
+      {{ end }}
+
+    {{ end }}

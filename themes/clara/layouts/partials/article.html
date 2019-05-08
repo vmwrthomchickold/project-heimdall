@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    {{ partial "hero/article.html" . }}
+
+    <div class="clr-row">
+
+      <div class="clr-col-3">
+
+        {{ range where .Site.Pages "Params.guide" "CIM SMASH/Server Management API Programming Guide" }}
+
+              <div><a class="black-linktext" href="{{ .Permalink }}">{{ .Title }}</a></div>
+
+        {{ end }}
+
+      </div>
+
+      <div class="clr-col-6">
+
+        {{ .Content }}
+
+      </div>
+
+      <div class="clr-col-3">
+
+        {{ .partial "toc.html" . }}
+
+      </div>
+
+    </div>
+
+    {{ partial "topic.html" . }}
+
+  </div>
+
+{{ end }}

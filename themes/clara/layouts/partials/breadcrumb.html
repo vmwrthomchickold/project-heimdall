@@ -20,17 +20,31 @@
 
 <nav class="breadcrumb">
 
-    <div class="mar-lr-24">
+    <div class="mar-lr-24 clr-row">
 
-      <ul class="breadcrumbs max-width">
+      <div class="clr-col-10">
 
-          {{ range $.Scratch.Get "siteBreadcrumbs" }}
+        <ul class="breadcrumbs max-width">
 
-          <li class="inline capitalize breadcrumb-item"><a href="{{ .url }}">{{ .name  }}&nbsp;&nbsp;</a></li>
+            {{ range $.Scratch.Get "siteBreadcrumbs" }}
 
-          {{ end }}
+            <li class="inline capitalize breadcrumb-item"><a href="{{ .url }}">{{ .name  }}&nbsp;&nbsp;</a></li>
 
-      </ul>
+            {{ end }}
+
+        </ul>
+
+      </div>
+
+      <div class="clr-col-2 right-text">
+
+        <div class="p1" style="padding-top: .6rem; padding-bottom: .6rem;">
+
+          {{ partial "actions.html" . }}
+
+        </div>
+
+      </div>
 
     </div>
 

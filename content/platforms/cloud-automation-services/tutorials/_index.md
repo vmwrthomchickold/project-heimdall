@@ -3,4 +3,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 linktitle: Tutorials
 title: Cloud Automation Services Developer Tutorials
+type: devcenter-subdir
 ---

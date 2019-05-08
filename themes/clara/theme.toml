@@ -11,7 +11,7 @@ features = []
 min_version = "0.41"
 
 [author]
-  name = ""
+  name = "Richard Thomchick"
   homepage = ""
 
 # If porting an existing theme

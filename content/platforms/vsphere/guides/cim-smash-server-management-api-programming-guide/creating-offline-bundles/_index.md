@@ -1,7 +1,10 @@
 ---
+author: VMware
 draft: true
-description: Dude, Where's My Description?
-layout: topic
+description:
+guide: CIM SMASH/Server Management API Programming Guide
+include_toc: true
+layout: test
 title: Creating Offline Bundles
 toc: true
 type: topic

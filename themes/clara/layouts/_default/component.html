@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container bg-white">
+
+    <div class="clr-row">
+
+      <div class="clr-col-9 border-right  pad-bot-72">
+
+        {{ partial "hero/l2.html" . }}
+
+        {{ partial "ranger/type/package-alt.html" . }}
+
+        {{ partial "divider/solid.html" . }}
+
+        {{ partial "ranger/type/service.html" . }}
+
+        {{ partial "divider/solid.html" . }}
+
+        {{ partial "ranger/type/structure.html" . }}
+
+      </div>
+
+      <div class="clr-col-3 bg-grey">
+
+        {{ partial "ranger/sibling/default.html" . }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

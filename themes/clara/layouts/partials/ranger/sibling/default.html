@@ -1,32 +1,19 @@
+<div class="mar-lr-24 pad-top-24">
 
-  <div class="mar-lr-36 pad-top-24">
+  <h5 class="padding-bottom-24 capitalize">Sibling {{.Params.type}}s</h5>
 
-    <div class="max-width">
+  <ul class="list-unstyled">
 
-    <section class="clr-row border-bottom padding-bottom-24">
+    {{ range .Parent.Sections }}
 
-        <div class="clr-col-3">
+      {{ if ne $ . }}
 
-            <h2 class="pad-top-24 pad-bottom-24 capitalize">Related {{.Params.type}}s</h2>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 
-        </div>
+      {{ end }}
 
-        <div class="clr-col-5">
+    {{ end }}
 
-            {{ range .Parent.Sections }}
+  </ul>
 
-            {{ if ne $ . }}
-
-            <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-
-            {{ end }}
-
-            {{ end }}
-
-        </div>
-
-      </section>
-
-    </div>
-
-  </div>
+</div>

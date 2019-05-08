@@ -3,4 +3,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 linktitle: Reference
 title: Cloud Automation Services API Reference Documentation
+type: devcenter-subdir
 ---

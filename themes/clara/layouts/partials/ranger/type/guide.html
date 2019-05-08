@@ -1,6 +1,6 @@
 <div class="clr-row mar-lr-24">
 
-  {{ range where .Site.Pages "Type" "guide" }}
+  {{ range where .Site.Pages "Params.type" "guide" }}
 
   <div class="clr-col-lg-4 clr-col-12">
 
@@ -27,3 +27,5 @@
   </div>
 
   {{ end }}
+
+</div>

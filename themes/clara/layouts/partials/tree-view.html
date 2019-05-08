@@ -1,0 +1,25 @@
+<h5 class="mar-l-36">{{ .Params.guide }}</h5>
+
+{{ if .Sections }}
+
+  {{ range .Parent.Sections }}
+
+  <clr-tree-node [clrExpanded]="true">
+
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+
+    <clr-tree-node class="clr-treenode-link" href="{{ .Permalink }}">{{ .Title }}</clr-tree-node>
+
+  </clr-tree-node>
+
+{{ end }}
+
+{{ else }}
+
+  {{ range .Parent.Sections }}
+
+  <clr-tree-node class="clr-treenode-link" href="{{ .Permalink }}">{{ .Title }}</clr-tree-node>
+
+  {{ end }}
+
+{{ end }}

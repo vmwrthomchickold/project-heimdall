@@ -4,14 +4,38 @@
   background-color: #fafafa;
 }
 
+.gradient-divider-container {
+  
+}
+
 .gradient-divider {
   height: 3px;
   width: auto;
   background: #78be20;
-background: -moz-linear-gradient(left, #78be20 0%, #1a4288 100%);
-background: -webkit-linear-gradient(left, #78be20 0%,#1a4288 100%);
-background: linear-gradient(to right, #78be20 0%,#1a4288 100%);
+background: -moz-linear-gradient(left, #78be20 0%, ##0091da 100%);
+background: -webkit-linear-gradient(left, #78be20 0%,#0091da 100%);
+background: linear-gradient(to right, #78be20 0%,#0091da 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', endColorstr='#1a4288',GradientType=1 );
+}
+
+.gradient-divider-stubby {
+  height: 3px;
+  width: 5rem;
+  background: #78be20;
+background: -moz-linear-gradient(left, #78be20 0%, ##0091da 100%);
+background: -webkit-linear-gradient(left, #78be20 0%,#0091da 100%);
+background: linear-gradient(to right, #78be20 0%,#0091da 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', endColorstr='#1a4288',GradientType=1 );
+}
+
+.gradient-divider-no-margins {
+  height: 2px;
+  width: auto;
+  background: #78be20;
+  background: -moz-linear-gradient(left, #78be20 0%, ##0091da 100%);
+  background: -webkit-linear-gradient(left, #78be20 0%,#0091da 100%);
+  background: linear-gradient(to right, #78be20 0%,#0091da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', endColorstr='#1a4288',GradientType=1 );
 }
 
 .solid-divider {
@@ -22,6 +46,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', end
 
 .center-text {
   text-align: center;
+}
+
+.right-text {
+  text-align: right;
 }
 
 .uppercase {
@@ -36,18 +64,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', end
   background-color: #ffffff;
 }
 
+.list-simple {
+  width: 100%;
+  list-style-type: none;
+}
+
+#toc ul {
+  list-style-type: none;
+}
+
+nav > ul > li, nav > ul > li > ul > li  {
+  list-style: none; margin-top:12px; margin-bottom:12px; line-height: .8rem;
+}
+
+.height-full {
+height: 100%;
+}
+
+.bg-grey {
+background-color: #fafafa;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
 /* --------------- Breadcrumb Styles --------------- */
 
 .breadcrumb {
-  border-bottom:1px solid #cccccc; text-transform: capitalize;
+  border-bottom:1px solid #cccccc; text-transform: capitalize; text-overflow: ellipsis;
 }
 
 ul.breadcrumbs {
-   -webkit-padding-start:0; padding-top: .6rem; padding-bottom: .6rem;
+   -webkit-padding-start:0; padding-top: .6rem; padding-bottom: .6rem; text-overflow: ellipsis;
 }
 
 ul.breadcrumbs li+li:before {
-    color: #555555; content: ">\00a0 \00a0";
+    color: #555555; content: ">\00a0 \00a0"; text-overflow: ellipsis;
 }
 
 ul.breadcrumbs a:visited {
@@ -84,6 +145,27 @@ ul.breadcrumbs a:visited {
 
 /* --------------- Margins --------------- */
 
+.mar-l-24 {
+  margin-left: 24px;
+}
+
+.mar-l-36 {
+  margin-left: 36px;
+}
+
+.mar-r-24 {
+  margin-right: 24px;
+}
+
+.mar-r-24 {
+  margin-right: 24px;
+}
+
+.mar-lr-12 {
+   margin-right:12px;
+   margin-left:12px;
+}
+
 .mar-lr-24 {
    margin-right:24px;
    margin-left:24px;
@@ -99,8 +181,16 @@ ul.breadcrumbs a:visited {
   max-width:1248px;
 }
 
+.mar-top-12 {
+  margin-top:12px;
+}
+
 .mar-top-24 {
   margin-top:24px;
+}
+
+.mar-bot-24 {
+  margin-bottom: 24px;
 }
 
 /* --------------- Borders --------------- */
@@ -115,9 +205,51 @@ ul.breadcrumbs a:visited {
   padding-top:24px;
 }
 
+.pad-top-12 {
+  padding-top:12px;
+}
+
+.pad-bot-24 {
+  padding-bottom:24px;
+}
+
+.pad-bot-72 {
+  padding-bottom:72px;
+}
+
 .pad-sides-48 {
    padding-left:48px;
    padding-right:48px;
+}
+
+.pad-bot-24 {
+  padding-bottom: 24px:
+}
+
+.pad-r-12 {
+  padding-right: 12px;
+}
+
+.pad-r-24 {
+  padding-right: 24px;
+}
+
+.pad-l-12 {
+  padding-left: 12px;
+}
+
+.pad-l-24 {
+  padding-left: 24px;
+}
+
+.pad-lr-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.pad-lr-24 {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* --------------- Code Logo --------------- */
