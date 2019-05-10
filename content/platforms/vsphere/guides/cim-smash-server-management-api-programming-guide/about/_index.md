@@ -4,7 +4,10 @@ draft: true
 description:
 guide: CIM SMASH/Server Management API Programming Guide
 include_toc: true
-layout: test
+layout: cim_smash_server_api_programming_guide
+menu: 
+  cim_smash_server_api_programming_guide:
+    parent: index
 title: About This Guide
 type: topic
 toc: true

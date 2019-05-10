@@ -1,0 +1,35 @@
+<!-- sidenav start -->
+
+<nav role="navigation" class="sidenav bg-grey height-full width-auto">
+
+  <h5 class="mar-l-36">{{ .Params.guide }}</h5>
+
+  <div class="border-bottom pad-top-24"></div>
+
+  <ul class="nav-list">
+
+      {{ $currentPage := . }}
+
+      {{ range .Site.Menus.vsphere_automation_sdk_programming_guide }}
+
+        {{ if .HasChildren }}
+
+          <li><a class="nav-link {{ if $currentPage.HasMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="#">{{ .Pre }}<span>{{ .Name }}</span></a></li>
+
+          <ul class="nav-list">
+
+            {{ range .Children }}<li><a class="nav-link {{ if $currentPage.IsMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+
+          </ul>
+
+        {{ else }}
+
+            <li><a class="nav-link {{ if $currentPage.IsMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
+
+        {{ end }}
+
+      {{ end }}
+
+    </ul>
+
+</nav>
