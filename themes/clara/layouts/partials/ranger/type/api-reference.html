@@ -8,19 +8,27 @@
 
       <div class="card-header">
 
-        <h3 class="card-title"><a class="black-linktext" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h3 class="card-title mar-bot-0"><a class="black-linktext" href="{{ .Permalink }}">{{ .LinkTitle }}</a></h3>
+
+        <div class="p5 mar-top-0">
+
+          {{ .Params.product }} {{ .Params.release }} | Released {{ dateFormat "Jan. 2, 2006" .Date }}
+
+        </div>
 
       </div>
-
-      <!--
 
       <div class="card-block">
 
-        <p class="card-text">{{ .Description }}</p>
+        <p class="card-text">{{ .Summary | truncate 149 }}{{ if .Truncated }} <button class="btn btn-sm btn-link"><a href="{{ .RelPermalink }}">Read More >></a></button>{{ end }}</p>
 
       </div>
 
-      //-->
+      <div class="card-footer">
+
+          <div class="p5 mar-top-0">Released {{ dateFormat "Jan. 2, 2006" .Date }}</div>
+
+      </div>
 
     </div>
 

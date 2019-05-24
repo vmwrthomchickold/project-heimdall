@@ -1,5 +1,9 @@
 ---
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
+description: Browse the latest PowerCLI command-line scripts to automate VMware products including vSphere, Horizon, and VMware Cloud.
+devcenter: PowerCLI
 draft: true
-title: "Samples"
+layout: cards-sample
+linktitle: Samples
+title: PowerCLI Script Exchange
+type: devcenter-subdir
 ---

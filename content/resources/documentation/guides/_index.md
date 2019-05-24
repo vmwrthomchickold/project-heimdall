@@ -1,5 +1,5 @@
 ---
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
+description: Browse the latest developer programming guides and integration guides for VMware APIs and SDKs including vSphere, VMware Cloud, VMware PKS, VMware Cloud Automation Services, vRealize Automation, and Workspace ONE. 
 draft: true
 layout: guides
 linktitle: Developer Guides

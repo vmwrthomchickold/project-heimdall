@@ -5,12 +5,9 @@ description:
 guide: CIM SMASH/Server Management API Programming Guide
 include_toc: true
 layout: cim_smash_server_api_programming_guide
-menu:
-  cim_smash_server_api_programming_guide:
-    parent: index
 title: Using the CIM Object Space
 toc: true
-type: topic
+type: topic 
 weight: 4
 ---
 You can learn how to use the CIM object space to get information and manage a server that runs VMware ESXi by studying these examples. Each example describes a goal to accomplish, steps to accomplish the goal, and a few lines of pseudocode to demonstrate the steps used in the client. These examples are chosen primarily to explain features of the VMware implementation of the profiles, and secondarily to demonstrate common operations.

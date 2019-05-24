@@ -1,0 +1,31 @@
+<!-- sidebar start -->
+
+<nav role="navigation" class="sidenav bg-grey height-full width-auto">
+
+<h5 class="mar-l-36">{{ .Params.guide }}</h5>
+
+<div class="border-bottom pad-top-24">
+
+</div>
+
+  <section class="sidenav-content">
+
+    <section class="nav-group collapsible">
+
+      <ul class="nav-list">
+
+      {{ $currentPage := . }}
+
+      {{ range .Site.Menus.vmc_aws_programming_guide }}
+
+        <li class="pad-bot-12"><a class="nav-link {{ if $currentPage.IsMenuCurrent "vmc_aws_programming_guide" . }}active{{ end }}" href="{{ .URL }}"><div style="width:90%;">{{ .Name }}</div></a></li>
+
+        {{ end }}
+
+      </ul>
+
+    </section>
+
+  </section>
+
+</nav>

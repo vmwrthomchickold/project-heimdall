@@ -1,8 +1,8 @@
 ---
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
+description: Browse the latest software development kits, driver development kits, command-line utilities and other developer tools for vSphere, vCenter, and ESXi.
 devcenter: vSphere
 draft: true
 linktitle: SDKs
-title: vSphere SDKs and Driver Development Kits
+title: vSphere SDKs and Developer Tools
 type: devcenter-subdir
 ---

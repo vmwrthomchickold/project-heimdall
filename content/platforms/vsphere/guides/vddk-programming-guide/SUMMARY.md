@@ -35,4 +35,3 @@
   * [vCloud API Operations](backing-up-vapps-in-vcloud-director/vcloud-api-operations.md)
 * [Virtual Disk Mount API](virtual-disk-mount-api.md)
 * [Errors Codes and Open Source](errors-codes-and-open-source.md)
-

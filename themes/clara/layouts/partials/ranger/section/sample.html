@@ -1,0 +1,41 @@
+<div class="clr-row mar-lr-24">
+
+  {{ range where .Sections "Type" "sample" }}
+
+  <div class="clr-col-lg-4 clr-col-12">
+
+    <div class="card clickable">
+
+      <div class="card-header">
+
+        <h3 class="card-title mar-bot-0"><a class="black-linktext" href="{{ .Permalink }}">{{ .LinkTitle }}</a></h3>
+
+        <div class="p5 mar-top-0">
+
+          Added {{ dateFormat "Jan. 2, 2006" .Date }} by {{.Params.Author}} for {{ .Params.platform }}
+
+        </div>
+
+      </div>
+
+      <div class="card-block">
+
+        <p class="card-text">{{ .Summary | truncate 140 }}{{ if .Truncated }} <button class="btn btn-sm btn-link"><a href="{{ .RelPermalink }}">Read More >></a></button>{{ end }}</p>
+
+        <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+
+      </div>
+
+      <div class="card-footer">
+
+          <div class="p5 mar-top-0"><span class="label label-light-blue">{{ .Params.sample_type }}</span> <span class="label label-purple">{{ .Params.prog_lang }}</span></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {{ end }}
+
+</div>

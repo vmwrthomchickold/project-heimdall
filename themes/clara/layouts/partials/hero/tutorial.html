@@ -1,0 +1,17 @@
+<section class="mar-lr-24 pad-bot-24">
+
+    <div>
+
+        {{ partial "header/tutorial" . }}
+
+      <h1>{{ .Title }}</h1>
+
+      <div class="p2 mar-top-12">
+
+        {{ dateFormat "Jan. 2, 2006" .Date }} | {{.Params.Author}}
+
+      </div>
+
+    </div>
+
+</section>

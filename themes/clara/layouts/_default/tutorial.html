@@ -4,9 +4,40 @@
 
   <div class="content-container">
 
-    {{ partial "hero/guide.html" . }}
+    <div class="clr-row bg-white">
 
-    {{ partial "content/article.html" . }}
+      <div class="clr-col-9 border-right">
+
+        {{ partial "hero/tutorial.html" . }}
+
+        <div class="mar-lr-24">
+
+          {{ partial "divider/gradient-no-margins" .}}
+
+        </div>
+
+        {{ partial "content/tutorial.html" . }}
+
+      </div>
+
+      <div class="clr-col-3 bg-grey">
+
+            {{ partial "toc.html" . }}
+
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h3>See Also</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
+
+      </div>
+
+    </div>
 
   </div>
 

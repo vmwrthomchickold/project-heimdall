@@ -5,9 +5,6 @@ description:
 guide: CIM SMASH/Server Management API Programming Guide
 include_toc: true
 layout: cim_smash_server_api_programming_guide
-menu:
-  cim_smash_server_api_programming_guide:
-    parent: index
 title: Troubleshooting CIM Connections
 toc: true
 type: topic

@@ -1,9 +1,8 @@
 ---
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras.
+description: Get the latest developer tools and resources for vSphere, vCenter, and ESXi including API reference, guides, tutorials, code samples, SDKs, and hands-on labs.
 draft: true
 layout: devcenter
 linktitle: vSphere
 title: vSphere
 type: devcenter
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras.

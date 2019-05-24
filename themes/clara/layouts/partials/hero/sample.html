@@ -1,0 +1,23 @@
+<section class="mar-lr-24 pad-bot-24">
+
+    <div>
+
+        {{ partial "header/sample" . }}
+
+      <h1>{{ .Title }}</h1>
+
+      <div class="p2 mar-top-12">
+
+        Added {{ dateFormat "Jan. 2, 2006" .Date }} by {{.Params.Author}}
+
+      </div>
+
+      <div class="mar-top-12">
+
+        <button class="btn btn-primary" name="Download">Clone / Download</button> <button class="btn btn-link" name="Clone">View on GitHub</button>
+
+      </div>
+
+    </div>
+
+</section>

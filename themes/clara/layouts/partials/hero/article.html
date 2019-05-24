@@ -2,21 +2,15 @@
 
     <div>
 
-      <!--
-
-        <div class="uppercase p2">{{ .Type }}</div>
-
-      -->
+        {{ partial "header/topic" . }}
 
       <h1>{{ .Title }}</h1>
 
-      <div class="p2">
+      <div class="p2 mar-top-0 pad-bot-24">
 
         {{ dateFormat "Jan. 2, 2006"  .Date }} | {{ .FuzzyWordCount}} words  | {{ .ReadingTime }} minutes to read {{if .Params.author}}| Contributed by {{.Params.Author}}{{end}}
 
       </div>
-
-      <h5>{{ .Description }}</h5>
 
     </div>
 

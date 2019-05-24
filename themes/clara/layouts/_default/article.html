@@ -8,7 +8,7 @@
 
       <div class="clr-col-3">
 
-        {{ partial "guides/cim-smash-server-api-programming-guide.html" . }}
+        {{ partial "sidenav/cim-smash-server-api-programming-guide.html" . }}
 
       </div>
 
@@ -23,6 +23,17 @@
       <div class="clr-col-2 bg-grey">
 
             {{ partial "toc.html" . }}
+
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h3>See Also</h3>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
 
       </div>
 

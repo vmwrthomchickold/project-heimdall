@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    <div class="clr-row bg-white">
+
+      <div class="clr-col-3">
+
+        {{ partial "sidenav/cim-smash-server-api-programming-guide.html" . }}
+
+      </div>
+
+      <div class="clr-col-7 border-right pad-r-24">
+
+        {{ partial "hero/guide.html" . }}
+
+        {{ partial "divider/gradient-no-margins.html" . }}
+
+        {{ .Description }}
+
+        <h2 class="pad-top-24">Topics</h2>
+
+        {{ partial "ranger/section/header-only-no-margins.html" . }}
+
+      </div>
+
+      <div class="clr-col-2 bg-grey">
+
+            {{ partial "toc.html" . }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

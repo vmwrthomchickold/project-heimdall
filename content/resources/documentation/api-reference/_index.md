@@ -1,7 +1,7 @@
 ---
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
+description: Browse the latest API reference documentation for all VMware products including vSphere, VMware Cloud, NSX, and Workspace ONE.
 draft: true
 layout: apis
 linktitle: API Reference
-title: VMware API Reference Documentation
+title: VMware {code} API Explorer
 ---

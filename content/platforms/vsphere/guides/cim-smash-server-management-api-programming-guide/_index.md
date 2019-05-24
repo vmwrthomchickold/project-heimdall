@@ -1,13 +1,15 @@
 ---
-author: VMware
+date: 2019-04-11T14:41:17-07:00
 description: The CIM SMASH/Server Management API Programming Guide provides information about developing applications using the CIM SMASH/Server Management API.
 draft: true
+guide: CIM SMASH/Server Management API Programming Guide
 include_toc: true
-layout: guide
+layout: cim_smash_server_api_programming_guide
 linktitle: CIM SMASH/Server API Programming Guide
-menu:
-  vsphere_automation_sdk_programming_guide:
-    identifer: index
+product: vSphere
+release: 6.7 U2
 title: CIM SMASH/Server API Programming Guide
+toc: true
 type: guide
 ---
+The CIM SMASH/Server Management API Programming Guide provides information about developing applications using the CIM SMASH/Server Management API.

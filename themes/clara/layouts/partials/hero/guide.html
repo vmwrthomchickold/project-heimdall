@@ -2,11 +2,15 @@
 
     <div>
 
-      <div class="uppercase p2">{{ .Type }}</div>
+      <div class="uppercase p2 mar-top-0">{{ .Type }}</div>
 
       <h1>{{ .Title }}</h1>
 
-      <h5>{{ .Description }}</h5>
+      <div class="pad-bot-12">
+
+        {{ partial "actions/article.html" . }}
+
+      </div>
 
     </div>
 

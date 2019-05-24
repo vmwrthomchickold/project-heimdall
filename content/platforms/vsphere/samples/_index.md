@@ -1,7 +1,8 @@
 ---
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
+description: Browse the latest code samples for vSphere, vCenter, and ESXi including API and SDK examples, command-line scripts, and Postman collections.
 devcenter: vSphere
 draft: true
+layout: cards-sample
 linktitle: Samples
 title: vSphere API and SDK Code Samples
 type: devcenter-subdir

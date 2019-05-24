@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    <div class="clr-row bg-white">
+
+      <div class="clr-col-9 border-right">
+
+        {{ partial "hero/sample.html" . }}
+
+        <div class="mar-lr-24 pad-bot-24">
+
+          {{ partial "divider/gradient-no-margins.html" . }}
+
+        </div>
+
+        {{ partial "content/sample.html" . }}
+
+      </div>
+
+      <div class="clr-col-3 bg-grey">
+
+        {{ partial "toc.html" . }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

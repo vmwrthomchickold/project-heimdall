@@ -5,10 +5,23 @@
 }
 
 .gradient-divider-container {
-  
+
 }
 
 .gradient-divider {
+  height: 3px;
+  width: auto;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#78be20+0,387c2c+25,00c1d5+50,0091da+75,0091da+100,1a4288+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#78be20+0,387c2c+25,00c1d5+50,0091da+75,1a4288+100,1a4288+100 */
+  background: #78be20; /* Old browsers */
+  background: -moz-linear-gradient(left,  #78be20 0%, #387c2c 25%, #00c1d5 50%, #0091da 75%, #1a4288 100%, #1a4288 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #78be20 0%,#387c2c 25%,#00c1d5 50%,#0091da 75%,#1a4288 100%,#1a4288 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #78be20 0%,#387c2c 25%,#00c1d5 50%,#0091da 75%,#1a4288 100%,#1a4288 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78be20', endColorstr='#1a4288',GradientType=1 ); /* IE6-9 */
+
+}
+
+.gradient-divider-backup {
   height: 3px;
   width: auto;
   background: #78be20;
@@ -89,14 +102,6 @@ background-color: #fafafa;
   width: auto;
 }
 
-.border-right {
-  border-right: 1px solid #ccc;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #ccc;
-}
-
 /* --------------- Breadcrumb Styles --------------- */
 
 .breadcrumb {
@@ -145,6 +150,18 @@ ul.breadcrumbs a:visited {
 
 /* --------------- Margins --------------- */
 
+.mar-l-n12 {
+  margin-left: -12px;
+}
+
+.mar-l-n24 {
+  margin-left: -24px;
+}
+
+.mar-l-12 {
+  margin-left: 12px;
+}
+
 .mar-l-24 {
   margin-left: 24px;
 }
@@ -181,12 +198,20 @@ ul.breadcrumbs a:visited {
   max-width:1248px;
 }
 
+.mar-top-0 {
+  margin-top:0 !important;
+}
+
 .mar-top-12 {
-  margin-top:12px;
+  margin-top:12px !important;;
 }
 
 .mar-top-24 {
   margin-top:24px;
+}
+
+.mar-bot-0 {
+  margin-bottom:0 !important;
 }
 
 .mar-bot-24 {
@@ -199,6 +224,18 @@ ul.breadcrumbs a:visited {
   border-bottom: 1px solid #cccccc;
 }
 
+.border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.border-none {
+  border: none !important;
+}
+
 /* --------------- Padding --------------- */
 
 .pad-top-24 {
@@ -207,6 +244,10 @@ ul.breadcrumbs a:visited {
 
 .pad-top-12 {
   padding-top:12px;
+}
+
+.pad-bot-12 {
+  padding-bottom:12px;
 }
 
 .pad-bot-24 {

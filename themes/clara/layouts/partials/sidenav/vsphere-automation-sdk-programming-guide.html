@@ -1,35 +1,31 @@
-<!-- sidenav start -->
+<!-- sidebar start -->
 
 <nav role="navigation" class="sidenav bg-grey height-full width-auto">
 
-  <h5 class="mar-l-36">{{ .Params.guide }}</h5>
+<h5 class="mar-l-36">{{ .Params.guide }}</h5>
 
-  <div class="border-bottom pad-top-24"></div>
+<div class="border-bottom pad-top-24">
 
-  <ul class="nav-list">
+</div>
+
+  <section class="sidenav-content">
+
+    <section class="nav-group collapsible">
+
+      <ul class="nav-list">
 
       {{ $currentPage := . }}
 
       {{ range .Site.Menus.vsphere_automation_sdk_programming_guide }}
 
-        {{ if .HasChildren }}
-
-          <li><a class="nav-link {{ if $currentPage.HasMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="#">{{ .Pre }}<span>{{ .Name }}</span></a></li>
-
-          <ul class="nav-list">
-
-            {{ range .Children }}<li><a class="nav-link {{ if $currentPage.IsMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
-
-          </ul>
-
-        {{ else }}
-
-            <li><a class="nav-link {{ if $currentPage.IsMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
+        <li class="pad-bot-12"><a class="nav-link {{ if $currentPage.IsMenuCurrent "vsphere_automation_sdk_programming_guide" . }}active{{ end }}" href="{{ .URL }}"><div style="width:90%;">{{ .Name }}</div></a></li>
 
         {{ end }}
 
-      {{ end }}
+      </ul>
 
-    </ul>
+    </section>
+
+  </section>
 
 </nav>

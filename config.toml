@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "VMware {code}"
 theme = "clara"
 preserveTaxonomyNames = true
-
+summaryLength = 10
 [menu]
 
   [[menu.main]]
@@ -35,6 +35,229 @@ preserveTaxonomyNames = true
   name = "Community"
   url = "/community/"
   weight = 5
+
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "About"
+  name = "About This Guide"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/about/"
+  weight = 1
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "Introduction"
+  name = "Introduction to the CIM SMASH/Server Management API"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/introduction-to-the-cim-smash-server-management-api/"
+  weight = 2
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "Developing Client Applications"
+  name = "Developing Client Applications for the CIM SMASH/Server Management API"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/developing-client-applications-for-the-cim-api/"
+  weight = 3
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "CIM Object Space"
+  name = "Using the CIM Object Space"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/using-the-cim-object-space/"
+  weight = 4
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "Offline Bundles"
+  name = "Creating Offline Bundles"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/creating-offline-bundles/"
+  weight = 5
+
+  [[menu.cim_smash_server_api_programming_guide]]
+  identifier = "Troubleshooting"
+  name = "Troubleshooting CIM Connections"
+  url = "/platforms/vsphere/guides/cim-smash-server-management-api-programming-guide/troubleshooting-cim-connections/"
+  weight = 6
+
+
+
+  [[menu.vddk_programming_guide]]
+  identifier = "About"
+  name = "About This Guide"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/about/"
+  weight = 1
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Introduction"
+  name = "Introduction to the Virtual Disk API"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/introduction-to-the-virtual-disk-api/"
+  weight = 2
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Installation"
+  name = "Installing Virtual Disk Development Kit"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/installing-the-virtual-disk-development-kit/"
+  weight = 3
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Interfaces"
+  name = "Virtual Disk Interfaces"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/virtual-disk-interfaces/"
+  weight = 4
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Interfaces"
+  name = "Virtual Disk API Functions"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/virtual-disk-api-functions/"
+  weight = 5
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Interfaces"
+  name = "Practical Programming Tasks"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/practical-programming-tasks/"
+  weight = 6
+
+  [[menu.vddk_programming_guide]]
+  identifier = "vSphere Backup"
+  name = "Backing Up Virtual Disks in vSphere"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/backing-up-virtual-disks-in-vsphere/"
+  weight = 7
+
+  [[menu.vddk_programming_guide]]
+  identifier = "vCD Backup"
+  name = "Backing Up Virtual Disks in vCloud Director"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/backing-up-vapps-in-vcloud-director/"
+  weight = 8
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Disk Mount API"
+  name = "Virtual Disk Mount API"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/virtual-disk-mount-api/"
+  weight = 9
+
+  [[menu.vddk_programming_guide]]
+  identifier = "Error Codes"
+  name = "Error Codes and Open Source"
+  url = "/platforms/vsphere/guides/vddk-programming-guide/errors-codes-and-open-source/"
+  weight = 10
+
+
+  [[menu.vmc_aws_programming_guide]]
+  identifier = "Overview"
+  name = "Overview of VMware Cloud on AWS for Developers"
+  url = "/platforms/vmc-aws/guides/vmc-aws-programming-guide/overview/"
+  weight = 1
+
+  [[menu.vmc_aws_programming_guide]]
+  identifier = "Using Curl"
+  name = "Using Curl with VMware Cloud"
+  url = "/platforms/vmc-aws/guides/vmc-aws-programming-guide/using-curl-with-vmware-cloud/"
+  weight = 2
+
+  [[menu.vmc_aws_programming_guide]]
+  identifier = "Using REST"
+  name = "Using a REST Client with VMware Cloud on AWS"
+  url = "/platforms/vmc-aws/guides/vmc-aws-programming-guide/using-a-rest-client-with-vmware-cloud-on-aws/"
+  weight = 3
+
+  [[menu.vmc_aws_programming_guide]]
+  identifier = "Preview Mode"
+  name = "Preview Mode Networking and Security"
+  url = "/platforms/vmc-aws/guides/vmc-aws-programming-guide/preview-mode-networking-and-security/"
+  weight = 4
+
+
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "About"
+  name = "About This Guide"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/about/"
+  weight = 1
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "Overview"
+  name = "Overview of the vRealize Automation REST API"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/overview-of-the-vrealize-automation-rest-api/"
+  weight = 2
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "Authentication"
+  name = "REST API Authentication"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/rest-api-authentication/"
+  weight = 3
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "Creating Tenant"
+  name = "Creating a Tenant"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/creating-a-tenant/"
+  weight = 4
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "Requesting Machine"
+  name = "Requesting a Machine"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/requesting-a-machine/"
+  weight = 5
+
+  [[menu.vrealize_automation_api_programming_guide]]
+  identifier = "Approving Request"
+  name = "Approving a Request"
+  url = "/platforms/vrealize-automation/guides/vrealize-automation-api-programming-guide/approving-a-machine-request/"
+  weight = 6
+
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "About"
+  name = "About This Guide"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/about/"
+  weight = 1
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Introduction"
+  name = "Introduction to the vSphere Automation SDKs"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/introduction-to-the-vsphere-automation-sdks/"
+  weight = 2
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Retrieving Endpoints"
+  name = "Retrieving Service Endpoints"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/retrieving-service-endpoints/"
+  weight = 3
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Authentication"
+  name = "Authentication Mechanisms"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/authentication-mechanisms/"
+  weight = 4
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Accessing Services"
+  name = "Accessing vSphere Automation Services"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/accessing-vsphere-automation-services/"
+  weight = 5
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Content Library"
+  name = "Content Library Service"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/content-library-service/"
+  weight = 6
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "OVF Support"
+  name = "Content Library Support for OVF and OVA Packages"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/content-library-support-for-ovf-and-ova-packages/"
+  weight = 7
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Tagging"
+  name = "Tagging Service"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/tagging-service/"
+  weight = 8
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "VM Configuration"
+  name = "Virtual Machine Configuration and Operations"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/virtual-machine-configuration-and-operations/"
+  weight = 9
+
+  [[menu.vsphere_automation_sdk_programming_guide]]
+  identifier = "Certificates"
+  name = "Certificate Management"
+  url = "/platforms/vsphere/guides/vsphere-automation-sdk-programming-guide/certificate-management/"
+  weight = 10
 
 [taxonomies]
 
