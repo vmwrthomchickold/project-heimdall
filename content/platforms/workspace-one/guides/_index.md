@@ -3,4 +3,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 linktitle: Guides
 title: Workspace ONE Developer Guides
+weight: 3
 ---

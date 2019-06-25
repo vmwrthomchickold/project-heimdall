@@ -3,7 +3,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque la
 devcenter: vSphere
 draft: true
 layout: cards-api-reference
-linktitle: Reference
+linktitle: APIs
 title: vSphere API and CLI Reference Documentation
 type: devcenter-subdir
+weight: 1
 ---

@@ -6,4 +6,5 @@ layout: cards-guide
 linktitle: Guides
 title: vSphere Developer Guides
 type: devcenter-subdir
+weight: 3 
 ---

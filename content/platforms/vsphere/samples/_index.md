@@ -6,4 +6,5 @@ layout: cards-sample
 linktitle: Samples
 title: vSphere API and SDK Code Samples
 type: devcenter-subdir
+weight: 4
 ---

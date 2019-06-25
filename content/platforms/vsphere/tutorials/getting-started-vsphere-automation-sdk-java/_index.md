@@ -6,6 +6,7 @@ draft: true
 layout: tutorial
 linktitle: Getting Started with the vSphere Automation SDK for Java
 title: Getting Started with the vSphere Automation SDK for Java
+tutorial_type: quickstart
 type: tutorial
 ---
 One of the easiest ways to manage VM snapshots is with PowerCLI! This edition of Talking Code walks us through a couple of the key cmdlets and how they can be used to make VM snapshot management simple.

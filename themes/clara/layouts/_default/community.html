@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="content-container">
+
+    <!-- {{ partial "hero/l1.html" . }} -->
+
+    <div class="clr-row mar-lr-24 pad-top-48">
+
+      <div class="clr-col-8">
+
+      {{ partial "content/community/blog.html" . }}
+
+      {{ partial "content/community/activity.html" . }}
+
+      </div>
+
+      <div class="clr-col-4">
+
+      {{ partial "content/community/events.html" . }}
+
+      <div class="mar-top-24">
+
+      </div>
+
+      {{ partial "content/community/follow.html" . }}
+
+      {{ partial "content/community/twitter.html" . }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+{{ end }}

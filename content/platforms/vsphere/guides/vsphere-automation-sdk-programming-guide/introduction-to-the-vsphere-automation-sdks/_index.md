@@ -25,9 +25,17 @@ vSphere Automation API client applications use the Lookup Service to retrieve th
 
 Client applications can access services that are exposed through the vSphere API by using the vSphere Management SDK.
 
-Depending on the vSphere deployment model, client applications can communicate with vSphere Automation services on a single vCenter Server instance or multiple vCenter Server instances. For more information about the vSphere deployment models, see [Components of the vSphere Automation Virtualization Layer](https://vdc-repo.vmware.com/vmwb-repository/dcr-public/64cb9a20-f092-41c5-9e10-08fb7e391407/e9127d93-e269-4c69-a0be-27a9b86f640b/doc/GUID-66CC89DC-6714-4AFE-B1F1-FADEBC52C1D0.html#GUID-66CC89DC-6714-4AFE-B1F1-FADEBC52C1D0)SDK Developer Setup
+Depending on the vSphere deployment model, client applications can communicate with vSphere Automation services on a single vCenter Server instance or multiple vCenter Server instances. For more information about the vSphere deployment models, see [Components of the vSphere Automation Virtualization Layer](https://vdc-repo.vmware.com/vmwb-repository/dcr-public/64cb9a20-f092-41c5-9e10-08fb7e391407/e9127d93-e269-4c69-a0be-27a9b86f640b/doc/GUID-66CC89DC-6714-4AFE-B1F1-FADEBC52C1D0.html#GUID-66CC89DC-6714-4AFE-B1F1-FADEBC52C1D0)
 
-To start developing a vSphere Automation API client application, you must download the software and set up a development environment. You can find instructions for setting up a development environment in the README for each vSphere AutomationSDK. SDK Samples
+### SDK Developer Setup
+
+To start developing a vSphere Automation API client application, you must download the software and set up a development environment. You can find instructions for setting up a development environment in the README for each vSphere AutomationSDK.
+
+### SDK Samples
+
+Here is a sample Gist to demonstrate how code snippets can be dynamically embedded in documentation using similar functionality provided by Sample Exchange.
+
+{{< gist rthomchick fb32b58344c511757adb1fe151289d88 >}}
 
 The vSphere Automation SDKs provide sample applications that you can extend to implement client applications that serve your needs. The code examples in the vSphere Automation SDKs documentation are based on these sample applications.
 

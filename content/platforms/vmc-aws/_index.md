@@ -4,4 +4,5 @@ draft: true
 categories: "Hybrid Cloud"
 layout: devcenter
 title: "VMware Cloud on AWS"
+type: devcenter
 ---

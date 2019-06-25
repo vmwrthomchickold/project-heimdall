@@ -140,6 +140,10 @@ ul.breadcrumbs a:visited {
   color: white !important;
 }
 
+.offwhite-linktext {
+  color: #E9ECEF !important;
+}
+
 .black-linktext {
   color: black !important;
 }
@@ -244,6 +248,10 @@ ul.breadcrumbs a:visited {
 
 .pad-top-12 {
   padding-top:12px;
+}
+
+.pad-top-48 {
+  padding-top:48px;
 }
 
 .pad-bot-12 {

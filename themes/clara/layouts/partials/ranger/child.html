@@ -1,0 +1,21 @@
+<div class="clr-row mar-lr-24">
+
+  {{ range .Pages }}
+
+  <div class="clr-col-lg-4 clr-col-12">
+
+    <div class="card clickable">
+
+      <div class="card-header">
+
+        <h3 class="card-title"><a class="black-linktext" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {{ end }}
+
+</div>

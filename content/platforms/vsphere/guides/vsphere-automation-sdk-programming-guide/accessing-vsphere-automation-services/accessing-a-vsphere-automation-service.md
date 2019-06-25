@@ -1,8 +1,19 @@
-# Accessing a vSphere Automation Service
+---
+author: VMware
+draft: true
+description:
+guide: vSphere Automation SDK Programming Guide
+include_toc: true
+layout: vsphere_automation_sdk_programming_guide
+title: Accessing a vSphere Automation Service
+type: topic
+toc: true
+weight: 1
+---
 
-To access a vSphere Automation service, you must have a valid session connection. The sequence for accessing a vSphere Automation service includes creating a protocol connection object and using it to create the service stub. Prerequisites 
+To access a vSphere Automation service, you must have a valid session connection. The sequence for accessing a vSphere Automation service includes creating a protocol connection object and using it to create the service stub. Prerequisites
 
-Establish a connection to the vSphere Automation Endpoint URL. For more information about the authentication mechanisms that you can use, see [Authentication Mechanisms](https://vdc-repo.vmware.com/vmwb-repository/dcr-public/64cb9a20-f092-41c5-9e10-08fb7e391407/e9127d93-e269-4c69-a0be-27a9b86f640b/doc/GUID-FBE84F97-5AAC-4D08-9727-299CCC22C300.html#GUID-FBE84F97-5AAC-4D08-9727-299CCC22C300). Procedure 
+Establish a connection to the vSphere Automation Endpoint URL. For more information about the authentication mechanisms that you can use, see [Authentication Mechanisms](https://vdc-repo.vmware.com/vmwb-repository/dcr-public/64cb9a20-f092-41c5-9e10-08fb7e391407/e9127d93-e269-4c69-a0be-27a9b86f640b/doc/GUID-FBE84F97-5AAC-4D08-9727-299CCC22C300.html#GUID-FBE84F97-5AAC-4D08-9727-299CCC22C300). Procedure
 
 <table>
   <thead>
