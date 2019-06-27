@@ -1,8 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://rthomchick.github.io/"
 languageCode = "en-us"
 title = "VMware {code}"
 theme = "clarity"
 preserveTaxonomyNames = true
+publishDir = "rthomchick.github.io"
 summaryLength = 10
 [menu]
 
