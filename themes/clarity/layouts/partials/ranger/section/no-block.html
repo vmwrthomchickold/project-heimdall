@@ -1,0 +1,42 @@
+<div class="clr-row mar-lr-24">
+
+  {{ range .Sections }}
+
+  <div class="clr-col-lg-4 clr-col-12">
+
+    <div class="card clickable">
+
+      <div class="card-header">
+
+        <h3 class="card-title"><a class="black-linktext" href="{{ .Permalink }}">{{ .LinkTitle }}</a></h3>
+
+      </div>
+
+      <div class="card-footer">
+
+          {{ range  first 5 .Sections }}
+
+          <ul class="list-unstyled">
+
+            <li <class="card-list-item">
+
+              <button class="btn btn-sm btn-link">
+
+                    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+
+              </button>
+
+            </li>
+          </ul>
+
+        {{ end }}
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {{ end }}
+
+</div>

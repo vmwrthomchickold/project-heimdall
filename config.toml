@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "VMware {code}"
-theme = "clara"
+theme = "clarity"
 preserveTaxonomyNames = true
 summaryLength = 10
 [menu]

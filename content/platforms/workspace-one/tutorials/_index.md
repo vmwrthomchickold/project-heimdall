@@ -3,4 +3,6 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque l
 draft: true
 linktitle: Tutorials
 title: Workspace ONE Developer Tutorials
+type: devcenter-subdir
+weight: 5
 ---

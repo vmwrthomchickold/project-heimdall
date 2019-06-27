@@ -1,10 +1,10 @@
 ---
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet tempor dolor et dignissim. Nunc eleifend nibh in mauris euismod, at tristique odio efficitur. Cras."
-devcenter: Workspace ONE
+devcenter: vSphere
 draft: true
-layout: cards-sdks
-linktitle: SDKs
-title: Workspace ONE SDKs
+layout: cards-forum
+linktitle: Forums
+title: vSphere Developer Forums
 type: devcenter-subdir
-weight: 2
+weight: 6
 ---
